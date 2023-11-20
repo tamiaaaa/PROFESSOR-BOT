@@ -26,4 +26,8 @@ services:
         sync: false
       - key: SUPPORT_CHAT
         sync: false
+      - key: SHORT_URL
+        sync: false
+      - key: SHORT_API
+        sync: false
     autoDeploy: true
