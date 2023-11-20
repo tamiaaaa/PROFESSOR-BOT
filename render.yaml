@@ -14,14 +14,14 @@ services:
         sync: false
       - key: API_HASH
         sync: false
-      - key: ADMINS
-        sync: false
-      - key: DATABASE_NAME
-        sync: false
       - key: CHANNELS
+        sync: false
+      - key: ADMINS
         sync: false
       - key: DATABASE_URI
         sync: false 
+      - key: DATABASE_NAME
+        sync: false
       - key: LOG_CHANNEL
         sync: false
       - key: SUPPORT_CHAT
@@ -30,4 +30,4 @@ services:
         sync: false
       - key: SHORT_API
         sync: false
-    autoDeploy: true
+    autoDeploy: false
